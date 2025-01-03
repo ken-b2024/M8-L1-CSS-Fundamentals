@@ -1,3 +1,4 @@
+
 h1 {
     width: 75%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,9 +10,21 @@ h1 {
     background-color: aqua;
     border: black 5px solid;
 }
-div > h2 {
+.body_text {
+    width: 50%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+    padding: 0.5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    background-color: aqua;
+    opacity: 75%;
+}
+div h2 {
     text-align: right;
-    width: 9%;
+    width: 7.5%;
+    margin-left: 6%;
     padding-right: 1%;
     background-color: black;
     color: rgb(196, 232, 232); 
@@ -20,13 +33,13 @@ div > h2 {
     border: rgb(255, 254, 254) 2px dotted;
     border-width: 5px;
 }
-.heading2 { 
+.heading { 
     margin-top: 1%;
     margin-bottom: 0.5%;
     padding-right: 1%;
-    margin-left: 48%;
+    margin-left: 49%;
     text-align: right;
-    width: 5%;
+    width: 4%;
     background-color: black;
     color: rgb(215, 238, 238); 
     font-weight: 1000; 
@@ -35,17 +48,6 @@ div > h2 {
     border-width: 5px;
 }
 
-.body_text {
-    width: 50%;
-    margin-left: 23%;
-    margin-bottom: 5%;
-    padding: 0.5%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    background-color: aqua;
-    opacity: 75%;
-}
 
 body {
     background-image: url(https://www.ghirardelli.com/media/recipe/ChocolateChipCookies_27987.jpg);
@@ -53,12 +55,14 @@ body {
 }
 .special_text {
     width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
+    font-size: x-large;
     font-style: italic;
     font-weight: 800;
     letter-spacing: 0.2rem;
-    color: rgba(62, 160, 226, 0.836);
+    color: rgba(50, 130, 183, 0.836);
     border: solid rgb(1, 0, 0) 3px;
     background-color: aqua;
     opacity: 85%;
@@ -67,18 +71,60 @@ body {
     width: 50%;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 800;
-    font-size: large;
+    font-size: x-large;
     font-style: italic;
-    letter-spacing: 0.2rem;
-    color: rgba(62, 160, 226, 0.836);
+    padding-left: 2%;
+    letter-spacing: 0.1rem;
+    color: rgba(48, 126, 178, 0.836);
     border: solid rgb(1, 0, 0) 3px;
     background-color: aqua;
     opacity: 85%;
 }
+section > h2 {
+    width: 15%;
+    margin-top: 55%;
+    margin-left: 39%;
+    padding-left: 1%;
+    text-align: center;
+    font-size: xxx-large;
+}
+section > p {
+    width: 50%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+    padding: 0.5%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    background-color: aqua;
+    opacity: 75%;
+}
+.button {
+    width: 15%;
+    font-size: xxx-large;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 45%;
+    background-color: aqua;
+    color: blue;
+}
+
+button:hover {
+    background-color: rgb(42, 87, 156);
+    color: rgb(0, 234, 255);
+}
+
+.button_text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xxx-large;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
 .footer {
     text-align: center;
     width: 47%;
-    margin: 25% 0 1% 25%;
+    margin: 15% 0 1% 25%;
     padding: -5%;
     border: red 5px solid;
     background-color: aqua;

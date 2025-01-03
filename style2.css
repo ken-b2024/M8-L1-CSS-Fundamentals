@@ -1,0 +1,35 @@
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+    margin-top: 30rem;
+    margin-bottom: -23rem;
+}
+body {
+    background-color: aqua;
+}
+div > form {
+    margin-top: 28rem;
+    margin-bottom: -29rem;
+    margin-left: 68rem;
+    margin-right: 68rem;
+    font-size: xxx-large;
+    text-align: center;
+    /* border: 3px solid red; */
+}
+.textbox {
+    width: 350px;
+    height: 50px;
+    border: 2px solid blue;
+    font-size: 18pt;
+    margin-bottom: 1rem;
+    margin-top: -10rem;
+}
+.textbox2 {
+    width: 550px;
+    height: 550px;
+    border: 2px solid blue;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    margin-left: -6rem;
+    font-size: 28pt;
+}
